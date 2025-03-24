@@ -1,9 +1,11 @@
-body{
-    box-sizing: border-box;
-    background-color: #be3455;
-    color: white;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #be3455;
+  color: white;
 }
 
-.titulo__destaque{
-    color:#EAD94C
+.titulo__destaque {
+  color: #ead94c;
 }
