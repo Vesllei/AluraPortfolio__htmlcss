@@ -9,10 +9,6 @@ body {
   box-sizing: border-box;
   background-color: #be3455;
   color: white;
-  overflow: hidden; /* Remove scroll */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .titulo__destaque {
@@ -64,27 +60,4 @@ body {
   color: #be3455;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-}
-
-@media (max-width: 768px) {
-  .apresentacao {
-    flex-direction: column; /* Empilha os elementos verticalmente */
-    text-align: center; /* Centraliza o texto */
-    gap: 30px; /* Dá um espaçamento agradável */
-  }
-
-  .apresentacao__conteudo {
-    width: 90%; /* Para evitar que o texto fique muito largo */
-    gap: 15px; /* Reduz espaço entre título e texto */
-  }
-
-  .apresentacao__links {
-    flex-direction: column; /* Empilha os botões */
-    gap: 15px; /* Dá mais espaço entre os botões */
-    align-items: center; /* Centraliza os links */
-  }
-
-  .apresentacao__links_link {
-    width: 100%; /* Faz os botões ocuparem toda a largura do container */
-  }
 }
