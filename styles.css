@@ -21,6 +21,11 @@ body {
 
 .ves {
   margin-top: -140px;
+  background-image: url("./assets/Imagem2.png"); /* Imagem inicial */
+}
+
+.ves:hover {
+  content: url("./assets/Imagem.png");
 }
 
 .apresentacao {
@@ -77,4 +82,9 @@ body {
   color: #ffffff;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links_link:hover {
+  background-color: #cf516e;
+  border: 3px dashed #ead94c;
 }
