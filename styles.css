@@ -2,10 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
-  height: 100vh;
-  padding: 0;
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   box-sizing: border-box;
   background-color: #be3455;
   color: white;
@@ -20,7 +23,9 @@ body {
 }
 
 .ves {
-  margin-top: -140px;
+  align-self: flex-start;
+  position: sticky;
+  top: 20px; /* Mantém a imagem fixa ao rolar */
   background-image: url("./assets/Imagem2.png"); /* Imagem inicial */
 }
 
@@ -29,7 +34,7 @@ body {
 }
 
 .apresentacao {
-  margin: 10% 12%;
+  padding: 8% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,4 +92,14 @@ body {
 .apresentacao__links_link:hover {
   background-color: #cf516e;
   border: 3px dashed #ead94c;
+}
+
+.rodape {
+  color: #be3455;
+  background-color: #ead94c;
+  padding: 24px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
