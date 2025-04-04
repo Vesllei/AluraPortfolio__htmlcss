@@ -55,10 +55,6 @@ body {
   top: 20px; /* Mantém a imagem fixa ao rolar */
 }
 
-.ves:hover {
-  content: url("./assets/Imagem.png");
-}
-
 .apresentacao {
   padding: 5% 15%;
   display: flex;
